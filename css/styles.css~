@@ -166,7 +166,7 @@ pre code {
 }
 .blog-title {
   font-size: 20px;
-  color: #fff;
+  color: #000;
   font-weight: bold;
 }
 .atom-img {
@@ -195,7 +195,7 @@ pre code {
   margin-left: 20px;
 }
 .menu-list li a {
-  color: #fff;
+  color: #000; /* 定义头部导航字的颜色 */
   -webkit-text-stroke: 0.25px;
 }
 .logo-img {
