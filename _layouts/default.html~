@@ -55,7 +55,7 @@
           <li><a class="
               {% if page.url == '/job.html' %}
               selected
-              {% endif %} menu-job" href="/job.html">We're hiring!</a></li>
+              {% endif %} menu-job" href="/job.html">Calling post!</a></li>
             </ul>
       </div>
     </div>
