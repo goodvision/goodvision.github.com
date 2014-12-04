@@ -1,8 +1,8 @@
 ---
 layout: entry
-title: ITQ(Iterative Quantization)阅读笔记
+title: Neural Codes for Image Retrieval 文献阅读
 author: JC Kim
-author-email: yangdekun@hust.edu.cn
+author-email: shinvee@spoqa.com
 description: 作者将卷积神经网络的高层激励输出称为neural codes，文章的主要工作就是评测了neural codes作为图像全局描述子时用于图像检索的性能。
 ---
 
@@ -20,13 +20,11 @@ description: 作者将卷积神经网络的高层激励输出称为neural codes�
 
 <img src="/images/2014-11-26/neural_codes1.jpg" style="width: 80%; margin-right:auto; margin-left:auto;" />
 
-[neural_codes1]: /images/2014-03-28/neural_codes1.jpg
-
 ##降维
 
 对于大规模图像检索来说，只有较低维度的特征才在实际应用中有意义，而CNN的激励输出和几种人工特征的维数都高达几千维，因此必须进行降维。作者利用PCA对这几种特征降维发现，虽然重训练后的neural codes相对人工特征并没有太多优越性，但PCA降维后的neural codes在三个数据集上都得到了比同维度的人工特征更好的结果。另外作者也提出用匹配图像进行判别式降维，相对PCA效果更好。
 
-[neural_codes1]: /images/2014-11-26/neural_codes2.jpg
+<img src="/images/2014-11-26/neural_codes2.jpg" style="width: 80%; margin-right:auto; margin-left:auto;" />
 
 ##想法
 
