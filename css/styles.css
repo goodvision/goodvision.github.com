@@ -692,3 +692,10 @@ pre code {
   float: right;
 }
 
+
+.top-bar {
+    background-color: #FFFFE0;
+    line-height: 32px;
+    color: #666;
+    border-bottom: 5px solid #ED5252;
+}
