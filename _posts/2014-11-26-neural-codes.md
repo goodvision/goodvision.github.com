@@ -18,13 +18,15 @@ description: 作者将卷积神经网络的高层激励输出称为neural codes�
 
 由于ImageNet数据集与检索数据集有一定差异，因此一个直观的想法就是针对检索数据集对模型重新训练以提高性能。因此作者重新收集共有672个类别的land mark数据，使用和ImageNet相同的模型结构并用ImageNet的参数初始化完成训练。实验结果表明利用重新训练的模型提取出的neural codes确实可以得到更好地效果，在前三个数据集上的效果有所提升，并且在Holidays数据集上得到了目前为止最好的效果，但UKB数据集的效果反而下降。作者认为这是由于UKB数据集与用于重训练的数据集差异较大，不如与ImageNet某几个类别下的数据相似性高。
 
+<img src="/images/2014-11-26/neural_codes1.jpg" style="width: 80%; margin-right:auto; margin-left:auto;" />
+
 [neural_codes1]: /images/2014-03-28/neural_codes1.jpg
 
 ##降维
 
 对于大规模图像检索来说，只有较低维度的特征才在实际应用中有意义，而CNN的激励输出和几种人工特征的维数都高达几千维，因此必须进行降维。作者利用PCA对这几种特征降维发现，虽然重训练后的neural codes相对人工特征并没有太多优越性，但PCA降维后的neural codes在三个数据集上都得到了比同维度的人工特征更好的结果。另外作者也提出用匹配图像进行判别式降维，相对PCA效果更好。
 
-[neural_codes1]: /images/2014-03-28/neural_codes2.jpg
+[neural_codes1]: /images/2014-11-26/neural_codes2.jpg
 
 ##想法
 

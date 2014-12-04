@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: ITQ(Iterative Quantization)阅读笔记
+title: Neural Codes for Image Retrieval 文献阅读
 author: JC Kim
 author-email: shinvee@spoqa.com
 description: 先对数据集进行PCA降维，然后寻找量化误差最小的旋转矩阵即可得到对应该最优旋转矩阵下的特征向量的二进制编码.
