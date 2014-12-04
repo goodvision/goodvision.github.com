@@ -1,8 +1,8 @@
 ---
 layout: entry
 title: Neural Codes for Image Retrieval 文献阅读
-author: JC Kim
-author-email: shinvee@spoqa.com
+author: dkyang
+author-email: yangdekun@hust.edu.cn
 description: 作者将卷积神经网络的高层激励输出称为neural codes，文章的主要工作就是评测了neural codes作为图像全局描述子时用于图像检索的性能。
 ---
 
