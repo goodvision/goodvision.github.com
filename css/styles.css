@@ -516,7 +516,7 @@ pre code {
 /* hiring banner */
 
 .hiring-banner-wrapper {
-  height: 400px;
+  height: 300px;
   background-color: #1abc9c;
   padding-top: 50px;
   text-align: center;
@@ -534,7 +534,7 @@ pre code {
 .hiring-image {
   background: url(/images/hiring-imagex2.png) no-repeat;
   background-size: 923px;
-  height: 400px;
+  height: 300px;
   background-position: 50% 100%;
   position: relative;
 }
