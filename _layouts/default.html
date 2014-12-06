@@ -52,6 +52,10 @@
               {% if page.url != '/about.html' and page.url != '/job.html' %}
               selected
               {% endif %} menu-blog" href="{{ base_path }}/index.html">博客</a></li>
+            <li><a class="
+              {% if page.url == '/wiki.html' %}
+              selected
+              {% endif %} menu-about" href="{{ base_path }}/about.html">维基</a></li>
           <li><a class="menu-github" href="https://github.com/goodvision">GitHub</a></li>
           <!--<li><a class="
               {% if page.url == '/job.html' %}
