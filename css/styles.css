@@ -699,3 +699,12 @@ pre code {
     color: #666;
     border-bottom: 5px solid #ED5252;
 }
+
+
+/*添加微博icon*/
+.weibo-icon {
+    display: inline-block;
+    background-image: url('/images/weibo-icon.png');
+    width: 24px;
+    height: 24px;
+}
